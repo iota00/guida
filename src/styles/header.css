@@ -1,0 +1,108 @@
+.header {
+  /* position: relative; */
+  /* height: 5%; */
+  width: 90%;
+  margin: 0 auto;
+  padding: 2.5rem;
+  background-color: #fafafa;
+  box-shadow: 5px 5px 20px #33333328;
+  border-radius: 0.5rem;
+  overflow: hidden;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+}
+
+/*  The 1st NavBar */
+.nav-bar-1 {
+  display: flex;
+  justify-content: space-between;
+  align-items: flex-end;
+  max-height: 3vh;
+}
+
+/* title */
+.nb1-title {
+  font-family: Popins;
+  font-size: 0.9rem;
+  font-weight: 700;
+}
+.nb-1-title span {
+  font-weight: bolder;
+  font-size: 1.2rem;
+}
+/* blogs */
+.nb-1-blog-btn {
+  font-family: Popins;
+  font-size: 1.2rem;
+  font-weight: 700;
+  cursor: pointer;
+}
+/* social icons */
+.nb-1-social {
+  display: flex;
+  justify-content: flex-start;
+  align-items: center;
+  padding: 0.5rem 1.5rem;
+}
+/* svg icons */
+.nb-1-social svg {
+  margin-left: 20px;
+  cursor: pointer;
+}
+
+/*  Languages*/
+.nb-1-languages select {
+  position: relative;
+  width: 6rem;
+
+  padding: 0.5rem 1rem;
+  cursor: pointer;
+}
+.nb-1-languages select option {
+}
+
+/* The 2nd Navbar */
+.nav-bar-2 {
+  display: flex;
+  justify-content: space-between;
+  align-items: flex-start;
+  height: 5vh;
+  padding: 1rem;
+  margin-top: 2rem;
+  /* box-shadow: 5px 5px 20px #33333328; */
+}
+
+/* Logo */
+.nb-2-logo {
+}
+
+/*  sign in/up */
+.nb-2-log {
+}
+.nb-2-log button {
+  padding: 0.5rem 1rem;
+  margin-left: 1rem;
+  cursor: pointer;
+}
+
+/*  user */
+.nb-2-user {
+  display: flex;
+  width: 7rem;
+  justify-content: space-between;
+  padding: 0.5rem 1rem;
+  /* background-color: antiquewhite; */
+}
+.nb-2-user .user {
+  overflow: hidden;
+  max-height: 100%;
+}
+.nb-2-user svg {
+  cursor: pointer;
+}
+.nb-2-user .user ul {
+  list-style: none;
+  height: 0;
+  display: none;
+}
